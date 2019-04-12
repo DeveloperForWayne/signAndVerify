@@ -1,0 +1,26 @@
+{
+  "name": "signandverify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperForWayne/signAndVerify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloperForWayne/signAndVerify/issues"
+  },
+  "homepage": "https://github.com/DeveloperForWayne/signAndVerify#readme",
+  "dependencies": {
+    "ethers": "^4.0.27",
+    "verifymessage": "^1.0.1"
+  }
+}
