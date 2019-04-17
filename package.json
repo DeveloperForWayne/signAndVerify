@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/DeveloperForWayne/signAndVerify#readme",
   "dependencies": {
+    "dotenv": "^7.0.0",
     "ethers": "^4.0.27",
     "verifymessage": "^1.0.1"
   }

@@ -1,10 +1,11 @@
 let verifyMessage = require("verifymessage");
 let ethers = require("ethers");
+require('dotenv').config()
 
 async function verify() {
  
 // Create a wallet to sign the hash with
-let privateKey = '0x44f74e69ee761fd3288d497e7380861ed1825dfef32cc8b8612284c3df26fd1b';
+let privateKey = process.env.PRIVATE_KEY;
 let wallet = new ethers.Wallet(privateKey);
 
 console.log("Wallet address:" + wallet.address);
